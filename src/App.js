@@ -8,11 +8,18 @@ function App() {
         <div className="container">
             <h1>Current Weather Update</h1>
             <p>
-                This app uses your public IP address to fetch a current weather update based on your public location, 
+                This app uses your public IP address,
+            </p>
+            <p>
+                to fetch a current weather update based on your public location,  
+            </p>
+            <p>
                 provided you are not using a VPN.
             </p>
             <p>
-                It uses an API call to <a href="https://openweathermap.org/" target="_blank" rel="noopener noreferrer">OpenWeatherMap</a>.
+              <strong>
+                       It uses an API call to <a href="https://openweathermap.org/" target="_blank" rel="noopener noreferrer">OpenWeatherMap</a>.
+              </strong>
             </p>
             <Weather />
             <footer className="footer">
